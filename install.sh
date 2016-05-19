@@ -16,6 +16,8 @@ mkdir -p ~/.vim/swap
 mkdir -p ~/.vim/backup
 mkdir -p ~/.vim/undo
 
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
 cp tmux.conf.sane ~/.tmux.conf
 cp vimrc.sane ~/.vimrc
 cp zshrc.sane ~/.zshrc
