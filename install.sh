@@ -16,6 +16,6 @@ mkdir -p .vim/swap
 mkdir -p .vim/backup
 mkdir -p .vim/undo
 
-cp tmux.conf.san ~/.tmux.conf
+cp tmux.conf.sane ~/.tmux.conf
 cp vimrc.sane ~/.vimrc
 cp zshrc.sane ~/.zshrc
