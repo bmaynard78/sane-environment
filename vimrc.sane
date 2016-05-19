@@ -44,12 +44,6 @@ if has('syntax')
     if &term == 'rxvt-unicode'
         set t_Co=256
     endif
-
-    if &t_Co == 256
-        colorscheme solarized
-    else
-        colorscheme solarized
-    endif
 endif
 
 if has('gui_running')
