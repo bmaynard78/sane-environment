@@ -12,9 +12,9 @@ if [ -f /etc/lsb-release ]; then
     apt-get install -y tmux zsh vim
 fi
 
-mkdir -p .vim/swap
-mkdir -p .vim/backup
-mkdir -p .vim/undo
+mkdir -p ~/.vim/swap
+mkdir -p ~/.vim/backup
+mkdir -p ~/.vim/undo
 
 cp tmux.conf.sane ~/.tmux.conf
 cp vimrc.sane ~/.vimrc
