@@ -65,7 +65,7 @@ bind-key -t vi-edit Down history-down
 # set some pretty colors
 # ----------------------
 #
-set -g status-bg "colour235"
+set -g status-bg "colour136"
 set -g message-command-fg "colour222"
 set -g status-justify "left"
 set -g status-left-length "100"
@@ -86,9 +86,9 @@ setw -g window-status-activity-bg "colour238"
 setw -g window-status-activity-attr "none"
 setw -g window-status-activity-fg "colour154"
 setw -g window-status-separator ""
-setw -g window-status-bg "colour235"
-set -g status-left "#[fg=colour235,bg=colour121] #S #[fg=colour121,bg=colour238,nobold,nounderscore,noitalics]>#[fg=colour121,bg=colour238] #(whoami) > IP: #[fg=232,bg=colour238]#(curl -s icanhazip.com) >"
-set -g status-right "#[fg=colour235,bg=colour235,nobold,nounderscore,noitalics] #[fg=colour238,bg=colour235,nobold,nounderscore,noitalics]<#[fg=colour121,bg=colour238] #W < #(date) #[fg=colour121,bg=colour238,nobold,nounderscore,noitalics]<#[fg=colour235,bg=colour121] #H "
+setw -g window-status-bg "colour136"
+set -g status-left "#[fg=colour136,bg=colour121] #S #[fg=colour121,bg=colour238,nobold,nounderscore,noitalics]>#[fg=colour121,bg=colour238] #(whoami) > IP: #[fg=232,bg=colour238]#(curl -s icanhazip.com) >"
+set -g status-right "#[fg=colour136,bg=colour235,nobold,nounderscore,noitalics] #[fg=colour238,bg=colour235,nobold,nounderscore,noitalics]<#[fg=colour121,bg=colour238] #W < #(date) #[fg=colour121,bg=colour238,nobold,nounderscore,noitalics]<#[fg=colour235,bg=colour121] #H "
 setw -g window-status-format "#[fg=colour121,bg=colour238] #I > # #W #[fg=colour238,bg=colour238,nobold,nounderscore,noitalics]>#[fg=colour238,bg=colour121,nobold,nounderscore,noitalics]"
-setw -g window-status-current-format "#[fg=colour121,bg=colour238] #I > #W >  #F #[fg=colour235,bg=colour121,nobold,nounderscore,noitalics]>" 
+setw -g window-status-current-format "#[fg=colour121,bg=colour238] #I > #W >  #F #[fg=colour136,bg=colour121,nobold,nounderscore,noitalics]>" 
 
